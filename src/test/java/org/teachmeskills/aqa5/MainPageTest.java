@@ -28,7 +28,7 @@ public class MainPageTest {
     @Test
     public void openFirefoxPage() {
         System.out.println("Selenium has been started!");
-        DriverManagerType driverManagerType = DriverManagerType.CHROME;
+        DriverManagerType driverManagerType = DriverManagerType.FIREFOX;
         WebDriverManager.getInstance(driverManagerType).setup();
 
         webDriver = new FirefoxDriver();
